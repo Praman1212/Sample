@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    letter-spacing: 5px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    float: right;
+}
+.nav-link{
+    letter-spacing: 5px;
+}
+form{
+    transform: translate(-80px,1px);
+}

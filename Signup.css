@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    letter-spacing: 5px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    float: right;
+}
+.nav-link{
+    letter-spacing: 5px;
+}
+form{
+    transform: translate(-80px,1px);
+}
+.container{
+    margin: 10vh 0vh;
+}
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+form .container h3{
+    letter-spacing:3px;
+    margin: 25px 0px;
+    margin-left: 15vh; 
+    font-family: 'Sansita Swashed', cursive;  
+    margin-bottom: 7vh; 
+}
+.container label{
+    font-weight: bold;
+}
+.clearfix{ 
+    margin-left: 26vh;
+}
+.clearfix .signupbtn{
+    background-color: #4CAF50;
+    color:white;
+    width: 25vh;
+    height: 5vh;
+    border: none;
+}
+.clearfix .cancelbtn{
+    background-color:#f44336;
+    color:white;
+    width: 25vh;
+    height: 5vh;
+    border: none;
+}

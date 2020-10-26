@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>SPORTS-NEPAL</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Nav.css">
+        <link rel="stylesheet" href="Signup.css">
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="navbar navbar-light bg-light">
+            <a href="Navbar.html" class="navbar-brand">
+                SPORTS-NEPAL
+            </a>
+            <form class="form-inline">
+                <input type="text" class="form-control" placeholder="Search Anything......." style="width: 60vh;border-radius: 20px;">
+                <a href="#"><i class="fa fa-search" style="transform: translate(-25px,0px); color:#4285f4;"></i></a> 
+            </form>
+            <ul class="navbar-nav" style="flex-direction: row; display: flex;justify-content: space-around;width: 30%;float: right;">
+                <li class="nav-item">
+                    <a href="Navbar.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="AboutUs.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Signup.html" class="nav-link">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#"><i class="fa fa-shopping-cart fa-2x"></i></a>
+                </li>
+            </ul>
+        </div>
+        <form action="Insert.php">
+            <div class="container">
+                <h3>Please fill in this form to create an account.</h3>
+                <label for="email">Email</label>
+                <input type="text" placeholder="Enter email" name="email" re quired style="margin-left: 122px;"><br>
+                <label for="pws">Password</label>
+                <input type="password" placeholder="Enter password" name="password" required style="margin-left: 90px;"><br>
+                <label for="pws">Repeat-Password</label>
+                <input type="password" placeholder="Repeat-Password" name="password" required style="margin-left: 32px;"><br>
+                <label>
+                    <input type="checkbox" checked= "checked" name="remember" style="margin-bottom: 15px;margin-left: 20vh;margin-right: 5px;">Remember me
+                </label>
+                <p style="padding-left: 20vh;">By creating an account you agree to our <a href="#" style="color: dodgerblue;">Terms & Pricacy</a></p>
+                <div class="clearfix">
+                    <button type="button" class="Signupbtn">Sign Up</button>
+                    <button type="button" class="cancelbtn">Cancel</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
